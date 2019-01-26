@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class TempTrame {
 	  private String tempTrame;
 	  private String idetifiant;
-	  private Integer heure;
+	  private String heure;
 	  private ArrayList<String> prelevements;
       
 	public String getTempTrame() {
@@ -32,11 +32,11 @@ public class TempTrame {
 		this.idetifiant = idetifiant;
 	}
 	
-	public Integer getHeure() {
+	public String getHeure() {
 		return heure;
 	}
 	
-	public void setHeure(Integer heure) {
+	public void setHeure(String heure) {
 		this.heure = heure;
 	}
 }

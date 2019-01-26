@@ -9,6 +9,19 @@ public class AdiasInternshipJanuary {
 
 	private static List<String> trames =new ArrayList<>();
 	
+	public TempTrame getTempTrameInstance(String tempTrame) {
+		String[] tTrame = tempTrame.split("|");
+		
+		TempTrame tempTrameInstance = new TempTrame();
+		tempTrameInstance.setTempTrame(tempTrame);
+		tempTrameInstance.setIdetifiant(tTrame[0]);
+		tempTrameInstance.setHeure(tTrame[2]);
+		
+		ArayList<String> prelevements =
+		
+		return tempTrameInstance;
+	}
+	
 	public static void main(String[] args) {
 		
 		trames.add("0T0001|0137.2|38.2|36.2|35.4|30.9|37.2");
@@ -21,7 +34,7 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
 		
 		
-			
+	 
 	
 
 	}
