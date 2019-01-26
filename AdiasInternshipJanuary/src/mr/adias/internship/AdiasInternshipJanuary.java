@@ -5,9 +5,37 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class AdiasInternshipJanuary {
+	
+
+public class TempTrame {
+	
+
 	  private static final Logger LOGGER = Logger.getLogger(AdiasInternshipJanuary.class.getName());
 
 	private static List<String> trames =new ArrayList<>();
+	
+	
+	
+	public  static String temtra(String a)
+	  {
+	    
+	      retour = ''
+	                   
+	    return retour;
+	  } 
+	
+	public static Srting recherche (String tableau[])
+	{
+		for (int i = 0; i < tableau.length; i++)
+		{
+			retour1=tableau[i]  ;
+				
+		}
+		
+		return retour1 ;
+	}
+	
+	
 	
 	public static void main(String[] args) {
 		
@@ -20,10 +48,17 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0009|0773.2|70.2|60.4|50.6|43.4|73.2");
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
 		
+		String ab ;
+		String a ;
+		ab= temtra(a); // on appelle la methode 
 		
-			
+	}
 	
 
-	}
+        
+}
+	
+
+}            
 
 }
