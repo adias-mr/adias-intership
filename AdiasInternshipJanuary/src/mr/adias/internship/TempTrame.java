@@ -23,8 +23,11 @@ public class TempTrame {
 		boolean sepPrel=false;
 		TempTrame t = null;
 		for (int i = 0; i < trame.length(); i++) {
-			if(trame.charAt(i)=='|' && i<6)
+			if(trame.charAt(i)!='|' && i<6)
 				idObjet +=trame.charAt(i);
+			if(i>6)
+				if(trame.charAt(i)=='|' && i<6)
+					heure +=trame.charAt(i);
 		}
 		return t;
 	}
