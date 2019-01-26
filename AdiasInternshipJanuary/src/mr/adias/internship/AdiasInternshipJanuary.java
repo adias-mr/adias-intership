@@ -21,7 +21,10 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
 		
 		
-			
+		public static TempTrame (String[] args)
+		{
+			Die myDie = new Die();
+			System.out.println ("" + TempTrame.AdiasInternshipJanuary);	
 	
 
 	}
