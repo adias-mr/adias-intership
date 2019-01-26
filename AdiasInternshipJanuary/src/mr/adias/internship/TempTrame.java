@@ -1,5 +1,7 @@
 package mr.adias.internship;
 
+import java.util.List;
+
 public class TempTrame {
 	private String idObjet;
 	private final String separateur = "|";
@@ -32,6 +34,13 @@ public class TempTrame {
 		return t;
 	}
 
+	public void retournerListeTempTrame(List<TempTrame> listeT) {
+		for(TempTrame l: listeT) {
+			System.out.println("["+l.idObjet+"]"+" ");
+		}
+		
+	}
+	
 	public String getIdObjet() {
 		return idObjet;
 	}
