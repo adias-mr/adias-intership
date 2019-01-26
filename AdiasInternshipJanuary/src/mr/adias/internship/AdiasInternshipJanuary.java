@@ -20,6 +20,9 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0009|0773.2|70.2|60.4|50.6|43.4|73.2");
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
 		
+		TempTrame tempTrame = new TempTrame();
+		
+		tempTrame.afficherTrame(trames);
 		
 			
 	
