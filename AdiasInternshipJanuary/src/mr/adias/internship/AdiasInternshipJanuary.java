@@ -21,7 +21,7 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
 		
 		
-			string g=trames.get(0);
+			
 
 
 	
