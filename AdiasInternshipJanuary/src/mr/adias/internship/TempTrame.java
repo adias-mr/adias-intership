@@ -8,7 +8,8 @@ public class TempTrame {
  private int numero_heur;
  String prelevement;
  
- private List <String> listprelevement = new ArrayList();
+ private List <TempTrame> listprelevement = new ArrayList();
+ 
  
  
 // Les accesseurs 
@@ -30,10 +31,10 @@ public String getPrelevement() {
 public void setPrelevement(String prelevement) {
 	this.prelevement = prelevement;
 }
-public List<String> getList() {
+public List<TempTrame> getList() {
 	return listprelevement;
 }
-public void setList(List<String> list) {
+public void setList(List<TempTrame> list) {
 	this.listprelevement = list;
 }
 
@@ -44,6 +45,7 @@ public TempTrame(String id, int numero_heur, String prelevement) {
 	
 }
  
-
-
+public void afficher_trame() {
+	
+}
 }
