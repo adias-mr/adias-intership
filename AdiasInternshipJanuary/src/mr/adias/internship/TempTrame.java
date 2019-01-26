@@ -6,7 +6,11 @@ public class TempTrame {
 	String listPrelev;
 	
 	public String trame() {
-		return objetId + "|" + numHeure + "|" +listPrelev;
+		return  objetId + "|" + numHeure + "|" +listPrelev;
 	}
 	
+	public TempTrame prendreTrame(objetId, numHeure, listPrelev) {
+		return TempTrame.trame;
+	}
+}
 }
