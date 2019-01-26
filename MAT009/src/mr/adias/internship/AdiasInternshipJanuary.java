@@ -8,7 +8,10 @@ public class AdiasInternshipJanuary {
 	  private static final Logger LOGGER = Logger.getLogger(AdiasInternshipJanuary.class.getName());
 
 	private static List<String> trames =new ArrayList<>();
-	
+        public static String gettrampe(String trame){
+            return trame;
+        }
+                
 	public static void main(String[] args) {
 		
 		trames.add("0T0001|0137.2|38.2|36.2|35.4|30.9|37.2");
