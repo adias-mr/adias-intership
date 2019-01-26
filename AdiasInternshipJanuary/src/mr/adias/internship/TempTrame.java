@@ -17,6 +17,18 @@ public class TempTrame {
 		this.prelevement = prelevement;
 	}
 
+	public TempTrame retournerTempTrame(String trame) {
+		boolean sepObject=false;
+		boolean sepHeure=false;
+		boolean sepPrel=false;
+		TempTrame t = null;
+		for (int i = 0; i < trame.length(); i++) {
+			if(trame.charAt(i)=='|' && i<6)
+				idObjet +=trame.charAt(i);
+		}
+		return t;
+	}
+
 	public String getIdObjet() {
 		return idObjet;
 	}
