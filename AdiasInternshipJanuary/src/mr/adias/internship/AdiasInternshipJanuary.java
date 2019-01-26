@@ -9,7 +9,11 @@ public class AdiasInternshipJanuary {
 
 	private static List<String> trames =new ArrayList<>();
 	
-	
+	public TempTrame methodeQ2(String s){
+		TempTrame t = new TempTrame();
+		t.setTrame(s);
+		return t;
+	}
 	
 	
 	public static void main(String[] args) {
@@ -22,6 +26,13 @@ public class AdiasInternshipJanuary {
 		trames.add("0T0007E0533.2E33.2E33.2E35.2E30.2E34.7");
 		trames.add("0T0009|0773.2|70.2|60.4|50.6|43.4|73.2");
 		trames.add("0T0012|018.2|8.2|7.3|9.4|4.2|7.9");
+		
+		// test Q2
+		String l = trames.get(1);
+		TempTrame  j = new TempTrame();
+		//j = methodeQ2(1);
+		System.out.println(l);
+		
 		
 		
 			
