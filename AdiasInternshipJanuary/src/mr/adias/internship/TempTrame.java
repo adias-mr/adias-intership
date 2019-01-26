@@ -31,6 +31,18 @@ public class TempTrame {
 		this.num = num;
 	}
 		
-
+	public TempTrame trame(String t){
+		String tab1[] = t.split(separateur);
+		
+        for (int i = 0; i < tab1.length; i++) {
+        	t.id=tab1[0];
+        	t.num=tab1[0];
+           
+        }
+        
+      
+        
+        return t;
+	}
 
 }
