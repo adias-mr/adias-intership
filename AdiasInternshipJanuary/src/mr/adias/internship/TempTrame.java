@@ -36,6 +36,13 @@ public List<String> getList() {
 public void setList(List<String> list) {
 	this.listprelevement = list;
 }
+
+public TempTrame(String id, int numero_heur, String prelevement) {
+	this.id = id;
+	this.numero_heur = numero_heur;
+	this.prelevement = prelevement;
+	
+}
  
 
 
