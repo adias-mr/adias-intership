@@ -36,7 +36,7 @@ public class TempTrame {
 
 	public void retournerListeTempTrame(List<TempTrame> listeT) {
 		for(TempTrame l: listeT) {
-			System.out.println("["+l.idObjet+"]"+" ");
+			System.out.println("["+l.idObjet+"]"+" "+"["+l.heure+"]"+" "+"["+l.prelevement+"]"+" "+"["+l.idObjet+"]"+" ");
 		}
 		
 	}
