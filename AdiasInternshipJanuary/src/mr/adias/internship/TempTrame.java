@@ -1,6 +1,6 @@
 package mr.adias.internship;
 
-
+import java.util.List;
 
 public class TempTrame {
 	
@@ -17,6 +17,16 @@ public class TempTrame {
 			e.printStackTrace();
 		}
 		return null;	
+	}
+	
+	public void Affichage( List<TempTrame> trames) {
+		
+		for (TempTrame tempTrame : trames) {
+			System.out.println("["+trames+"]"+" ");
+			
+		}
+		
+		
 	}
 
 	public static void main(String[] args) {
